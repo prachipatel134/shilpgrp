@@ -5,12 +5,12 @@ const StatisticsSection = () => {
   return (
     <div className='flex flex-wrap justify-around ' >
       <div className="text-center  ">
-        <CountUp className='text-[34px] font-bold' start={0} end={12} duration={7} /><span className='text-[34px]'>+</span>
+        <CountUp className='text-[34px] font-bold' start={0} end={12} duration={8} /><span className='text-[34px]'>+</span>
         <p className='text-[17px]'>Years of Experience</p>
       </div>
       <div className='h-[42px] my-auto hidden md:block  w-[1px] bg-black mr-[20px] ms-[10px] '></div>
       <div className="text-center ">
-        <CountUp className='text-[34px] font-bold' start={0} end={16} duration={7} />
+        <CountUp className='text-[34px] font-bold' start={0} end={16} duration={8} />
         <p className='text-[17px]'>Services provided</p>
       </div>
       <div className='h-[42px] my-auto hidden md:block  w-[1px] bg-black mr-[20px] ms-[10px] '></div>
@@ -20,7 +20,7 @@ const StatisticsSection = () => {
       </div>
       <div className='h-[42px] my-auto hidden md:block  w-[1px] bg-black mr-[20px] ms-[10px]'></div>
       <div className="text-center">
-        <CountUp className='text-[34px] font-bold' start={0} end={1000} duration={8} /> <span className='text-[34px]'>+</span>
+        <CountUp className='text-[34px] font-bold' start={0} end={1000} duration={7} /> <span className='text-[34px]'>+</span>
         <p className='text-[17px]'>Projects Delivered</p>
       </div>
     </div>
