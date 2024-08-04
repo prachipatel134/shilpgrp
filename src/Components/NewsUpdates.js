@@ -18,7 +18,7 @@ export default function NewsUpdates() {
 
         <br/>  <span className='font-bold  text-[40px ]lg:text-[60px] text-[#0061E0]'>Latest New Feeds</span></h2>
 
-        <Button variant="primary" className='flex items-center'>View All Blogs <BsArrowUpRight size={28} className='ms-3'/></Button>
+        <Button variant="primary" className='flex items-center'>View All Blogs <BsArrowUpRight size={28} className='lg:ms-3 ms-2'/></Button>
         </div>
         <Row className='gx-4 gy-4'>
             <Col sm="6" lg="4">

@@ -15,7 +15,7 @@ export default function BlogCard({img,newsdate,newsMonth,newstitle,newsdetail}) 
             transition={{ duration: 0.8 }}
             className='h-100'
           >
-        <Card className='h-100 relative' style={{ paddingBottom:'41px', borderRadius:'20px',borderColor:'transparent',boxShadow:'0px 4px 4px #00000040' }}>
+        <Card className='h-100 relative lg:pb-[41px] pb-[20px] ' style={{ borderRadius:'20px',borderColor:'transparent',boxShadow:'0px 4px 4px #00000040' }}>
         <div className='relative'>
           <div className='absolute inset-0 border-[15px] border-white rounded-[20px]'></div>
           <Card.Img variant="top" className='rounded-[20px]' src={img} />

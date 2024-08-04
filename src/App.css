@@ -316,4 +316,15 @@ border-style: solid;
  .arrow{
  top:66%;
   }
+  .btn-primary{
+   
+    padding: 13px 26px;
+ 
+   
+  }
+  .btn-outline-primary{
+   
+    padding: 13px 26px;
+
+  }
  }

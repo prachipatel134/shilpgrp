@@ -17,16 +17,16 @@ export default function HeroSection() {
         <Container className=''>
         <Row className="gy-4 lg:gy-0 gx-2 relative">
             <Col lg="6">
-            <h1 className="xl:text-[70px] lg:text-[60px] text-[48px] font-bold">Crafting Your<br/> <span className='font-bold  text-[55px ]lg:text-[90px] text-[#0061E0]'><ReactTyped
+            <h1 className="xl:text-[70px] lg:text-[60px] text-[38px] font-bold">Crafting Your<br/> <span className='font-bold  text-[55px ]lg:text-[90px] text-[#0061E0]'><ReactTyped
                   strings={['Dream Home', 'Luxury Living', 'Perfect Space']}
                   typeSpeed={100}
                   backSpeed={50}
                   loop
                   // showCursor={false}
                 /></span></h1>
-            <p className='text-2xl md:w-[80%]'>Experience luxury living with Shilp Group's exquisite 
+            <p className='lg:text-2xl text-lg md:w-[80%]'>Experience luxury living with Shilp Group's exquisite 
             real estate projects.</p>
-            <Button variant="primary" className='mt-[40px]'>Learn More</Button>
+            <Button variant="primary" className='lg:mt-[40px] mt-[20px]'>Learn More</Button>
             <div className="pt-[50px] block lg:hidden">
             <StatisticsSection  />
             </div>
