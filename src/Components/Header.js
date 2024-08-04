@@ -28,7 +28,7 @@ export default function Header() {
         <Navbar.Toggle  onClick={handleShow} />
         <Navbar className='hidden lg:flex'>
           <Nav className="ms-auto">
-            <Nav.Link href="#features">Home</Nav.Link>
+            <Nav.Link href="#features" className='font-bold border-b nav-link-active'>Home</Nav.Link>
             <Nav.Link href="#pricing">Commercial</Nav.Link>
             <NavDropdown title="Residential" id="collapsible-nav-dropdown">
               <NavDropdown.Item href="https://shilpgroup.com/shilp-north-sky/" target='_blank'>shilp north sky</NavDropdown.Item>
