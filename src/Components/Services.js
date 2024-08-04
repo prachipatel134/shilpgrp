@@ -17,8 +17,8 @@ export default function Services() {
           >
             <Row className='services-row'>
                 <Col lg="6">
-                <h2 className="lg:text-[50px] text-[36px] font-bold">Our Services
-           <br/>  <span className='font-bold  text-[40px ]lg:text-[60px] text-[#0061E0]'>We do for you</span></h2>
+                <h2 className="lg:text-[50px] text-[34px] font-bold">Our Services
+           <br/>  <span className='font-bold  text-[36px ]lg:text-[60px] text-[#0061E0]'>We do for you</span></h2>
            <ul className='services-list pt-[10px] lg:pt-[50px] lg:mb-24 lg:text-2xl text-lg'>
 
             <li className=''>We create building in the buzzing parts of the city. Our locations are prime and give the buyers an edge. Good locations determine a property’s value.</li>

@@ -13,8 +13,8 @@ export default function CommercialProperty() {
   return (
     <div className='section-padding bg-blue py-[50px]'>
         <div className='flex flex-wrap gap-y-3  justify-between items-center md:pb-[80px] pb-[30px]'>
-        <h2 className="lg:text-[50px] text-[34px] md:text-[40px] font-bold">Here are our
-        <br/>  <span className='font-bold  text-[34px] md:text-[42px] lg:text-[60px] text-[#0061E0]'>Commercial Property</span></h2>
+        <h2 className="lg:text-[50px] text-[30px] md:text-[40px] font-bold">Here are our
+        <br/>  <span className='font-bold  text-[30px] md:text-[42px] lg:text-[60px] text-[#0061E0]'>Commercial Property</span></h2>
 
         <Button variant="primary" className='flex items-center'>View More <BsArrowUpRight size={28} className='lg:ms-3 ms-2'/></Button>
         </div>

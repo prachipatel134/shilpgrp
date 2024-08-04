@@ -14,10 +14,10 @@ export default function ResidentialProperty() {
   return (
     <div className='section-padding md:my-[150px] my-[50px]'>
       <div className='flex flex-wrap gap-y-3 justify-between items-center md:pb-[80px] pb-[30px]'>
-        <h2 className="lg:text-[50px] text-[34px] md:text-[40px] font-bold">
+        <h2 className="lg:text-[50px] text-[30px] md:text-[40px] font-bold">
           Here are our
           <br />
-          <span className='font-bold md:text-[42px] text-[36px] lg:text-[60px] text-[#0061E0]'>Residential Property</span>
+          <span className='font-bold md:text-[42px] text-[30px] lg:text-[60px] text-[#0061E0]'>Residential Property</span>
         </h2>
 
         <Button variant="primary" className='flex items-center'>
