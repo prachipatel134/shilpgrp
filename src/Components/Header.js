@@ -54,7 +54,7 @@ export default function Header() {
             <Nav.Link href="">Sneh shilp Foundation</Nav.Link>
           </Nav>
           <Nav className='lg:items-center'>
-            <Nav.Link href="#deets" className='hidden lg:flex'><div className='p-[11px] shadow-custom rounded-full bg-white text-[#0061E0]'><FiSearch size={19} /></div></Nav.Link>
+            <Nav.Link href="#" className='hidden lg:flex'><div className='p-[11px] shadow-custom rounded-full bg-white text-[#0061E0]'><FiSearch size={19} /></div></Nav.Link>
             <Nav.Link eventKey={2} href="#memes" >
             <Button variant="primary">Enquiry Now</Button>
             </Nav.Link>
