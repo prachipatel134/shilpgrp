@@ -307,13 +307,13 @@ border-style: solid;
   height:120px;
 }
 .ServiceSwiper .swiper-button-prev,.ServiceSwiper .swiper-button-next{
-  padding:25px 25px;
+  padding:25px 25px 29px 25px;
 }
 .ServiceSwiper .swiper-button-next:after {
-  font-size: 20px;  
+  font-size: 25px;  
 }
 .ServiceSwiper .swiper-button-prev:after {
- font-size: 20px;   
+ font-size: 25px;   
 }
  }
  @media  (max-width: 767px) {
